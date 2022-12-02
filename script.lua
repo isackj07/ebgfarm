@@ -2,7 +2,7 @@ spawn(function()
     while wait () do
 game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):ChangeState(11)
 end end)
-wait(1)
+wait(0.5)
 local _speed=3000
 function tp(...)
    local plr=game.Players.LocalPlayer
@@ -48,7 +48,7 @@ end end)
 
 wait(1)
 spawn(function() 
-while wait (1) do
+while wait (0.5) do
 local _speed=3000
 function tp(...)
    local plr=game.Players.LocalPlayer
