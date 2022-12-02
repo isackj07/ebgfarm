@@ -2,7 +2,7 @@ spawn(function()
     while wait () do
 game.Players.LocalPlayer.Character:WaitForChild("Humanoid"):ChangeState(11)
 end end)
-wait(0.3)
+wait(0.5)
 local _speed=3000
 function tp(...)
    local plr=game.Players.LocalPlayer
@@ -23,7 +23,7 @@ function tp(...)
 end
 
 tp(-638.353638, -58.3049469, 757.653931, -0.709312856, -2.77422252e-11, 0.704893827, 6.66586893e-15, 1, 3.93633112e-11, -0.704893827, 2.79256011e-11, -0.709312856)
-wait(0.3)
+wait(0.5)
 local baseplate = Instance.new("Part")
 baseplate.Parent = workspace
 baseplate.Size = Vector3.new(80,1,80)
@@ -46,9 +46,9 @@ game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = gam
 game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame = game:GetService("Workspace")[".Ignore"][".ServerEffects"]:WaitForChild("Diamond").CFrame
 end end)
 
-wait(0.5)
+wait(1)
 spawn(function() 
-while wait (0.3) do
+while wait (0.5) do
 local _speed=3000
 function tp(...)
    local plr=game.Players.LocalPlayer
