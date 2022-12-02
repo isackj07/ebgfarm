@@ -30,7 +30,7 @@ baseplate.Size = Vector3.new(80,1,80)
 baseplate.Anchored = true
 baseplate.Name = "Baseplate"
 baseplate.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,-2,0)
-wait(1.5)
+wait(1)
 
 spawn(function()
 while wait () do
@@ -48,7 +48,7 @@ end end)
 
 wait(1)
 spawn(function() 
-while wait (5) do
+while wait (1) do
 local _speed=3000
 function tp(...)
    local plr=game.Players.LocalPlayer
